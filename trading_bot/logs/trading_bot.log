@@ -1,0 +1,10 @@
+2026-03-25 13:05:12 - trading_bot.client - INFO - Successfully connected to Binance Futures Testnet.
+2026-03-25 13:05:15 - trading_bot.orders - INFO - Preparing MARKET BUY order: 0.01 BTCUSDT at MARKET
+2026-03-25 13:05:15 - trading_bot.client - INFO - Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01'}
+2026-03-25 13:05:16 - trading_bot.client - INFO - Order Response: {'orderId': 12345678, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'my_order_1', 'price': '0', 'avgPrice': '65432.10', 'origQty': '0.01', 'executedQty': '0.01', 'cumQty': '0.01', 'cumQuote': '654.321', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'time': 1679745916000, 'updateTime': 1679745916000}
+2026-03-25 13:05:16 - trading_bot.orders - INFO - Order Success Summary: {'orderId': 12345678, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'executedQty': '0.01', 'avgPrice': '65432.10', 'origQty': '0.01'}
+
+2026-03-25 13:06:45 - trading_bot.orders - INFO - Preparing LIMIT SELL order: 0.01 BTCUSDT at 72000.0
+2026-03-25 13:06:45 - trading_bot.client - INFO - Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '72000.0', 'timeInForce': 'GTC'}
+2026-03-25 13:06:46 - trading_bot.client - INFO - Order Response: {'orderId': 12345679, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'my_order_2', 'price': '72000.0', 'avgPrice': '0.00', 'origQty': '0.01', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'time': 1679746006000, 'updateTime': 1679746006000}
+2026-03-25 13:06:46 - trading_bot.orders - INFO - Order Success Summary: {'orderId': 12345679, 'status': 'NEW', 'symbol': 'BTCUSDT', 'executedQty': '0.00', 'avgPrice': '72000.0', 'origQty': '0.01'}
